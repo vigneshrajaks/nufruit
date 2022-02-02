@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Euclid Circular B", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(19, 15, 72, 0.4);
+
+  overflow-x: hidden;
+}
+
+/* ****************** */
+/* GENERAL REUSABLE COMPONENTS */
+/* ****************** */
+
+.container {
+  max-width: 110.4rem;
+  padding: 0 3.2rem;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.column-gap--md {
+  column-gap: 4.8rem;
+}
+
+.row-gap--lg {
+  row-gap: 8rem;
+}
+
+.heading-secondary {
+  font-size: 6.8rem;
+  color: #130f49;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 0.9;
+  margin-bottom: 3.2rem;
+}
+
+.secondary-discription {
+  font-size: 2.4rem;
+  max-width: 40rem;
+  line-height: 1.4;
+  margin-bottom: 2.4rem;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cta {
+  background-color: #cce8fd;
+  padding: 1.6rem 2.4rem;
+  border-radius: 2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.get {
+  font-size: 1.44rem;
+  font-family: inherit;
+  font-weight: 400;
+  color: rgba(19, 15, 72, 0.4);
+  text-align: left;
+}
+
+.app-store {
+  font-size: 1.9rem;
+  font-family: inherit;
+  color: #130f49;
+  font-weight: 400;
+}
